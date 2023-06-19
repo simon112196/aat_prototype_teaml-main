@@ -1,0 +1,18 @@
+.dark {
+    --background: #404041;
+    --card-color: #2F2F2F;
+    --card-border: #3F3F3F;
+    --text-color: #FFFFFF;
+    --grey-1: #808080;
+    --grey-2: #585C67;
+    --shadow-light: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.light {
+    --background: #FCFCFF;
+    --card-color: #EfEFF7;
+    --card-border: #DFDFE7;
+    --text-color: #000000;
+    --grey-1: #808080;
+    --grey-2: #434752;
+    --shadow-light: 0px 0px 20px rgba(195, 195, 195, 0.3);
+}

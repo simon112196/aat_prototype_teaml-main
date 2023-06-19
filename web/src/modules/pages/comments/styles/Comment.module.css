@@ -1,0 +1,122 @@
+.container {
+	width: 100%;
+	max-width: 900px;
+}
+
+@media only screen and (max-width: 900px) {
+	.container {
+		padding: 0 1em;
+	}
+}
+
+.container .addCommentArea .textareaDiv textarea {
+	width: 100%;
+	padding: 0.5em;
+}
+
+.container .addCommentArea .textareaDiv textarea:focus-visible {
+	outline-color: lightblue;
+}
+
+.container .addCommentArea .submitDiv {
+	text-align: right;
+}
+
+.container .addCommentArea .submitDiv button {
+	cursor: pointer;
+	line-height: 2em;
+	padding: 0 1em;
+	color: #fff;
+	border: #808080;
+	background-color: #808080;
+	user-select: none;
+}
+
+.CommentContentArea {
+	margin-top: 1em;
+}
+
+.CommentContentAreaOpT {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 0.5em;
+}
+
+.CommentContentAreaOpT span:first-child {
+	font-size: 0.7em;
+	font-weight: 700;
+}
+
+.CommentContentAreaOpT span:last-child {
+	font-size: 0.7em;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.CommentContentAreaItem {
+	padding: 0.8em 0.2em;
+	border-bottom: lightgrey 1px solid;
+}
+
+.CommentContentAreaItem p {
+	font-size: 0.7em;
+	text-align: right;
+}
+
+.CommentContentAreaItemContent {
+	line-height: 1em;
+}
+
+.CommentContentAreaItemContent h4 {
+	display: inline !important;
+	font-size: 1em;
+}
+.header {
+	display: inline;
+}
+.fieldset {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+}
+
+.button {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0.5rem;
+}
+
+.CommentContentAreaItemContentOpEdit {
+	padding: 0 0.5em;
+	user-select: none;
+	cursor: pointer;
+	color: #00c7ff;
+}
+
+.CommentContentAreaItemContentOpDelete {
+	padding: 0 0.5em;
+	user-select: none;
+	cursor: pointer;
+	color: red;
+}
+.scrollContainer::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+	color: transparent;
+}
+.pagination{
+	line-height: 3em;
+	padding-bottom: 2em;
+}
+
+.pagination span{
+	padding: 0 1em
+}
+
+.activeSpan{
+	cursor: pointer;
+	border-bottom: 1px solid;
+}

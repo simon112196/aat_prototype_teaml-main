@@ -1,0 +1,16 @@
+# Dependencies
+venv
+package-lock.json
+zip_file
+
+# Environment
+.env
+*.pyc
+*.cpython
+.vscode
+
+# Database
+*.db
+
+# Mac-specific garbage
+.DS_Store

@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  max-width: 900px;
+}
+@media only screen and (max-width: 900px) {
+  .container {
+    padding: 0 1em;
+  }
+}
+.container .addCommentArea .textareaDiv textarea {
+  width: 100%;
+  padding: 0.5em;
+}
+.container .addCommentArea .textareaDiv textarea:focus-visible{
+  outline-color: lightblue;
+}
+.container .addCommentArea .submitDiv{
+  text-align: right;
+}
+.container .addCommentArea .submitDiv button {
+  cursor: pointer;
+  line-height: 2em;
+  padding: 0 1em;
+  color: #fff;
+  border: #808080;
+  background-color: #808080;
+  user-select: none;
+}

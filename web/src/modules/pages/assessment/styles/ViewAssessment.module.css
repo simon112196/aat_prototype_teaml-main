@@ -1,0 +1,33 @@
+.card {
+    width: 70vw;
+}
+.header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;    
+}
+.header_sub {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.header_sub_right {
+    align-items: flex-end;
+}
+.question_list {
+    padding: 1rem;
+}
+.info_section {
+    width: 100%;
+    padding: 0.5rem;
+}
+.info_section * {
+    display: block;
+    padding: 0.5rem 0px;
+}
+.bold {
+    display: inline;
+    font-weight: 700;
+}

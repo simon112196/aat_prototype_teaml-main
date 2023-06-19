@@ -1,0 +1,37 @@
+:root {
+    --font-family: helvetica, "sans-serif";
+    --font-size-regular: 16px;
+    --font-weight-regular: 400; 
+    --font-weight-semi-bold: 600; 
+    --font-weight-bold: 700; 
+    font-size: var(--font-size-regular);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    cursor: default;
+    user-select: none;
+}
+html, body, #root {
+    width: 100%;
+    height: 100%;
+}
+body {
+    overflow: hidden;
+}
+#root {
+    display: flex;
+    flex-direction: column;
+    background: var(--background);
+}
+p, span, h1, h2, h3, h4, h5, h6, label {
+    font-family: var(--font-family);
+    color: var(--text-color);
+}
+p, h1, h2, h3, h4, h5, h6, label {
+    display: inline;
+}
+li {
+    list-style: none;
+}

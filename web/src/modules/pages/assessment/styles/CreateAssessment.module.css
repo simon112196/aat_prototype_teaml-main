@@ -1,0 +1,38 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    max-height: 90vh;
+}
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.scroll {
+    display: flex;
+    flex: 1;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.questions_fieldset {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-top: 16px;
+}
+.questions {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.question {
+    min-width: 50vw;
+    padding: 1em;
+}
+.button_row {
+    display: flex;
+    padding-top: 16px;
+}
+.option_list {
+    padding: 0.5rem 1rem;
+}
